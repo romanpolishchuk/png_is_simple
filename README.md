@@ -11,3 +11,5 @@ let result = read_png("./image.png").unwrap(); // Vec<Vec<(u8, u8, u8)>> of pixe
 [dependencies]
 regex = { git = "git@github.com:romanpolishchuk/png_is_simple.git" }
 ```
+## Warning!
+At the moment this library support only decoding of uncompressed pallet png files
